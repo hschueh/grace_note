@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:grace_note/ui/page/note_detail.dart';
+import 'package:grace_note/ui/page/notes_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const NoteDetailPage(title: 'Flutter Demo Home Page'),
+      home: const NotesListPage(title: 'Flutter Demo Home Page'),
     );
   }
 }

@@ -35,6 +35,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   video_player: ^2.2.10
+  video_thumbnail: ^0.4.6
+  path_provider: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -60,10 +62,47 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - assets/ignore/list.json
+    - assets/ignore/654941541.273944.jpg
+    - assets/ignore/654941541.273944.mp4
+    - assets/ignore/B612.jpg
+    - assets/ignore/B612.mp4
+    - assets/ignore/B98901078.MOV
+    - assets/ignore/B98901078.jpg
+    - assets/ignore/Dora.MP4
+    - assets/ignore/Dora.jpg
+    - assets/ignore/GMT20210929-023527_Recording_640x360.jpg
+    - assets/ignore/GMT20210929-023527_Recording_640x360.mp4
+    - assets/ignore/IMG_1756.MOV
+    - assets/ignore/IMG_1756.jpg
+    - assets/ignore/IMG_4563.MOV
+    - assets/ignore/IMG_4563.jpg
+    - assets/ignore/IMG_4591.MOV
+    - assets/ignore/IMG_4591.jpg
+    - assets/ignore/VID20210930215435.jpg
+    - assets/ignore/VID20210930215435.mp4
+    - assets/ignore/ariel.jpg
+    - assets/ignore/ariel.mp4
+    - assets/ignore/ball.jpg
+    - assets/ignore/ball.mov
+    - assets/ignore/bon.jpg
+    - assets/ignore/bon.mp4
+    - assets/ignore/chi-an.MOV
+    - assets/ignore/chi-an.jpg
+    - assets/ignore/chocho.jpg
+    - assets/ignore/chocho.mp4
+    - assets/ignore/joshuan.jpg
+    - assets/ignore/joshuan.mov
+    - assets/ignore/money.jpg
+    - assets/ignore/money.mp4
+    - assets/ignore/peijung.jpg
+    - assets/ignore/peijung.mp4
     - assets/ignore/sample.MOV
-    
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+    - assets/ignore/sample.jpg
+    - assets/ignore/shuai.jpg
+    - assets/ignore/shuai.mp4
+    - assets/ignore/yuting_kevin.jpg
+    - assets/ignore/yuting_kevin.mov
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
